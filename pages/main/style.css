@@ -167,7 +167,7 @@ a:active {
 
 #designedHeader {
     display: flex;
-
+    white-space: nowrap;
     align-items: center;
     justify-content: flex-end;
     font-style: normal;
