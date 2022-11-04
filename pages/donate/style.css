@@ -379,7 +379,7 @@ input {
 
 .background-radio {
     background-color: #404950;
-    width: 98.4rem;
+    width: 90.6rem;
     height: 2.7rem;
     right: 8.2rem;
     top: 52.6rem;
@@ -387,7 +387,7 @@ input {
 }
 
 .background-radio__line {
-    width: 91.5rem;
+    width: 84rem;
     height: 0.2rem;
     background-color: #72828E;
     position: absolute;
