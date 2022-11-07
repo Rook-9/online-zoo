@@ -379,7 +379,7 @@ input {
 
 .background-radio {
     background-color: #404950;
-    width: 90.6rem;
+    width: 98rem;
     height: 2.7rem;
     right: 8.2rem;
     top: 52.6rem;
@@ -387,7 +387,7 @@ input {
 }
 
 .background-radio__line {
-    width: 84rem;
+    width: 92rem;
     height: 0.2rem;
     background-color: #72828E;
     position: absolute;
@@ -450,7 +450,7 @@ input {
     position: absolute;
     color: #929699;
     top: 66.6rem;
-    left: 70rem;
+    left: 69rem;
     font-size: 2rem;
 }
 
@@ -472,6 +472,31 @@ input {
 
 .period-wrapper input {
     margin-right: 1rem;
+}
+
+.period-wrapper input[type='radio']:after {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 1rem;
+    position: relative;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #FE9013;
+}
+
+.period-wrapper input[type='radio']:checked:after {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 1rem;
+    position: relative;
+    background-color: #FFEE2E;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #FE9013;
 }
 
 #oncePayment {
