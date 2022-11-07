@@ -324,6 +324,7 @@ legend {
     line-height: 140%;
     color: #000000;
     margin-bottom: 1rem;
+    margin-left: 2.2rem;
 }
 
 fieldset {
@@ -379,9 +380,9 @@ input {
 
 .background-radio {
     background-color: #404950;
-    width: 98rem;
+    width: 94.4rem;
     height: 2.7rem;
-    right: 8.2rem;
+    right: 10.2rem;
     top: 52.6rem;
     position: absolute;
 }
